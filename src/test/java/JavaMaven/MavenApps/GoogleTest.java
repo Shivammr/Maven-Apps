@@ -35,7 +35,7 @@ public class GoogleTest {
 		driver.findElement(By.xpath("//input[@title='Search']")).sendKeys("Maven");
 		driver.findElement(By.xpath("(//input[@value='Google Search'])[1]")).click();
 		//builder.sendKeys(Keys.ENTER);
-		Assert.assertTrue(driver.findElement(By.xpath("//span[text()='pauaa]")).isDisplayed());
+		Assert.assertTrue(driver.findElement(By.xpath("//span[text()='Apache Maven']")).isDisplayed());
 	}
 
 }
